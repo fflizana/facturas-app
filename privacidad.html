@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad · Facturas</title>
+  <style>
+    :root { --ink: #23242b; --muted: #5d5f6b; --accent: #b4202a; --bg: #f6f5f3; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 20px; }
+    h1 { font-size: 1.8rem; margin: 0 0 .3rem; } h2 { font-size: 1.15rem; margin-top: 2rem; }
+    .sub { color: var(--muted); margin: 0 0 2rem; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad</h1>
+  <p class="sub">Aplicación «Facturas» · Última actualización: 26 de octubre de 2026</p>
+
+  <h2>1. Quién es el responsable</h2>
+  <p>Facturas es una aplicación de escritorio que cada usuario instala y ejecuta en su propio ordenador. El desarrollador de la aplicación <b>no recibe, no almacena y no tiene acceso</b> a los datos de los usuarios. Contacto: <a href="mailto:ffernandezlizana@gmail.com">ffernandezlizana@gmail.com</a>.</p>
+
+  <h2>2. Qué datos trata la aplicación</h2>
+  <ul>
+    <li>Los datos que el usuario introduce: sus datos de autónomo (nombre, NIF, contacto), facturas, gastos (incluidos los PDF o fotos de las facturas de gasto), presupuestos e informes.</li>
+    <li>De su cuenta de Google: la dirección de correo y el identificador de la cuenta, para comprobar que solo entra el dueño de esa copia de la aplicación.</li>
+  </ul>
+
+  <h2>3. Dónde se guardan</h2>
+  <ul>
+    <li>En el <b>ordenador del usuario</b>, dentro de la carpeta de la aplicación.</li>
+    <li>Si el usuario lo autoriza, en <b>su propio Google Drive</b>, en una carpeta llamada <i>negocios</i> que crea la aplicación.</li>
+    <li>El permiso de Google y, si se configura, la contraseña de aplicación del correo se guardan <b>cifrados</b> (AES-256-GCM) en el ordenador del usuario.</li>
+  </ul>
+  <p>No hay ningún servidor de la aplicación en internet. Los datos no se envían a terceros, no se venden y no se usan para publicidad ni para entrenar modelos de inteligencia artificial.</p>
+
+  <h2>4. Uso de los datos de Google</h2>
+  <p>La aplicación solicita estos permisos:</p>
+  <ul>
+    <li><code>openid</code> y <code>email</code>: iniciar sesión y saber qué cuenta es la dueña de esa copia.</li>
+    <li><code>https://www.googleapis.com/auth/drive.file</code>: crear la carpeta <i>negocios</i> y guardar en ella los ficheros de la aplicación. Con este permiso la aplicación <b>solo accede a los archivos que ella misma ha creado</b>; no puede ver ni modificar el resto del Drive del usuario.</li>
+  </ul>
+  <p>El uso y la transferencia de la información recibida de las API de Google se ajustan a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado.</p>
+
+  <h2>5. Cómo retirar el permiso o borrar los datos</h2>
+  <ul>
+    <li>Desde la aplicación: Configuración → «Desconectar» la cuenta de Google.</li>
+    <li>Desde Google, en cualquier momento: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Los datos son del usuario: puede borrar la carpeta de la aplicación de su ordenador y la carpeta <i>negocios</i> de su Drive cuando quiera.</li>
+  </ul>
+
+  <h2>6. Cambios</h2>
+  <p>Si esta política cambia, se actualizará en esta página con su fecha.</p>
+
+  <p><a href="index.html">← Volver</a></p>
+</main>
+</body>
+</html>
